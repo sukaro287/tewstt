@@ -1,0 +1,18 @@
+debug: false
+uuid: 72f17f40-e0e2-4a9c-8cd4-f5d471a1b9cc
+token_id: DFSRRUGXnl3bMU7m
+token: TXgc3Grdm0drZisdzhY0zZGsl0I3C6CgTEK7eBj8I0isdbaJNk93Qp6C1WKjQXwO
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live//krill-shining-strangely.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live//krill-shining-strangely.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://zany-journey-6j6xr4xv9xv36rr-80.app.github.dev'
